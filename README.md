@@ -32,7 +32,10 @@ Online Banking System can be used by accountant and customer.
 
 # How to run Online banking system
 
-##### Create MySQL Tables
+##### Create MySQL Database and Tables
+
+CREATE DATABASE project1
+
 --Customer table to store customers data
 CREATE TABLE customer_details
 (
