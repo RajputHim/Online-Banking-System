@@ -36,7 +36,8 @@ Online Banking System can be used by accountant and customer.
 
 CREATE DATABASE project1
 
---Customer table to store customers data
+Customer table to store customers data
+
 CREATE TABLE customer_details
 (
 customer_id int primary key,
@@ -54,9 +55,9 @@ balance int not null,
 password varchar(30)
 );
 
---Transation table to store transaction history
-CREATE TABLE 
-(
+Transaction table to store transaction history
+
+CREATE TABLE tran_details(
 cid int,
 recievers_acc int,
 dot DATE,
@@ -64,6 +65,7 @@ senders_acc int,
 transaction_amount INT(7),
 balance int not null
 );
+
 ---
 Accountants Email-ID and Password:-
 - 123@gmail.com
