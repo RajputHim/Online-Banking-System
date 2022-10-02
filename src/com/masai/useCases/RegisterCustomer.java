@@ -19,7 +19,7 @@ public class RegisterCustomer {
 
 		CustomerDao dao = new CustomerDaoImpl();
 
-		int result = dao.registerCustomer(email, pw);
+		int result = dao.registerCustomer(email, pw,0);
 		System.out.println(result);
 
 	}
